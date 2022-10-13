@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Inter:wght@100&family=Jost&family=Kaushan+Script&family=Lato&family=Montserrat:wght@400;700&family=Poppins&family=Roboto&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+#NavColor {
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+#home {
+  width: 100%;
+  height: 110vh;
+  background-image: url("../img/lf5rdchhbzu.jpg");
+  background-size: cover;
+  transform: translateY(-135px);
+}
+#home #hero {
+  width: 100%;
+  height: 110vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#home #hero h1 {
+  font-size: 100px;
+}
+#home #hero p {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#home #hero button {
+  width: 160px;
+  height: 45px;
+  font-size: 11px;
+}
+#home #hero button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+
+#sectionTwo {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/24572776_sl_031520_28970_10-1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#sectionTwo h6 {
+  font-size: 11px;
+  color: #f15543;
+}
+#sectionTwo h1 {
+  font-size: 48px;
+}
+#sectionTwo ul li {
+  list-style: none;
+}
+#sectionTwo p {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+#sectionTwo button {
+  width: 160px;
+  height: 45px;
+  font-size: 11px;
+}
+#sectionTwo button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+#sectionTwo #kart1 {
+  background-color: #efefef;
+}
+
+#section3 span {
+  font-size: 70px;
+}
+#section3 h2 {
+  font-size: 18px;
+}
+
+#section4 h6 {
+  font-size: 11px;
+  color: #f15543;
+  letter-spacing: 2px;
+}
+#section4 h1 {
+  font-size: 48px;
+}
+#section4 button {
+  width: 137px;
+  height: 50px;
+  font-size: 11px;
+}
+#section4 button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+
+#kartlar {
+  transform: translate(40px, -60px);
+}
+#kartlar #kartBody {
+  background-image: url("../img/2607293_4981.jpg");
+}
+#kartlar #kartBody a {
+  font-size: 11px;
+}
+#kartlar #kartBody a:hover {
+  border-bottom: 1px solid #fdc411 !important;
+}
+
+#section5 {
+  height: 90vh;
+  background-image: url("../img/lamborghini.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section5 #info {
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+  padding-left: 100px;
+}
+#section5 #info h1 {
+  font-size: 48px;
+}
+#section5 #info p {
+  font-size: 18px;
+}
+#section5 #info button {
+  width: 160px;
+  height: 45px;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+#section5 #info button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+
+#infoTwo li i {
+  font-size: 14px;
+}
+#infoTwo li span {
+  font-size: 14px;
+}
+
+#social li a {
+  text-decoration: none;
+  color: white;
+}
+#social li a i {
+  background-color: #4b4b4b;
+}
+#social li a i:hover {
+  padding: 10px !important;
+  color: #fdc411;
+}
+
+#footerTop {
+  height: 95px;
+  width: 100%;
+  transform: translateY(30px);
+  -webkit-clip-path: polygon(0 0, 80% 0, 75% 100%, 0% 100%);
+          clip-path: polygon(0 0, 80% 0, 75% 100%, 0% 100%);
+}
+#footerTop h1 {
+  margin-left: 120px;
+  font-size: 48px;
+  font-weight: bold;
+}
+#footerTop button {
+  margin-left: 200px;
+  height: 47px;
+  width: 200px;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+#footerTop button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+
+#foot {
+  background-color: #20201f;
+}
+#foot #Myinput button {
+  height: 45px;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+#foot #Myinput button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+
+#section6 {
+  height: 95vh;
+  background-image: url("../img/ysjss78rw10.jpg");
+}
+#section6 h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+#section6 p {
+  font-size: 18px;
+}
+#section6 button {
+  width: 200px;
+  height: 47px;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+#section6 button:hover {
+  background-color: #4B4B4B;
+  color: white !important;
+}
+
+#section7 h6 {
+  font-size: 11px;
+  color: #f15543;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+#section7 h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#section8 h6 {
+  font-size: 11px;
+  color: #f15543;
+}
+#section8 h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+#section8 #articleCard {
+  position: relative;
+}
+#section8 #articleCard #top {
+  width: 135px;
+  height: 30px;
+  z-index: 6;
+  position: absolute;
+  top: 0px;
+  font-size: 12px;
+  font-weight: 600;
+}
+#section8 #articleCard h4 {
+  cursor: pointer;
+}
+#section8 #articleCard h4:hover {
+  color: #f15543 !important;
+}
+
+#about {
+  height: 506px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/ng3xrviprhk.jpg");
+  transform: translateY(-135px);
+}
+#about #aboutHero {
+  width: 100%;
+  height: 506px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#about #aboutHero h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+#about #aboutHero a {
+  font-size: 11px;
+}/*# sourceMappingURL=style.css.map */

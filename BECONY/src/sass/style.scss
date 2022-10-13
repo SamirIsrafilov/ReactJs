@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inter:wght@100&family=Jost&family=Kaushan+Script&family=Lato&family=Montserrat:wght@400;700&family=Poppins&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+////////////////**Nav**//////////////
+
+#NavColor {
+    z-index: 5;
+    background-color: rgba($color: #ffffff24, $alpha: 0.2) !important;
+}
+
+// ////////////////**Home**//////////////
+
+#home {
+    width: 100%;
+    height: 110vh;
+    background-image: url('../img/lf5rdchhbzu.jpg');
+    background-size: cover;
+   transform: translateY(-135px);
+
+    #hero {
+        width: 100%;
+        height: 110vh;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+
+        h1 {
+            font-size: 100px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        button {
+            width: 160px;
+            height: 45px;
+            font-size: 11px;
+
+            &:hover {
+                background-color: #4B4B4B;
+                color: white !important;
+            }
+        }
+
+
+    }
+}
+
+#sectionTwo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/24572776_sl_031520_28970_10-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    h6 {
+        font-size: 11px;
+        color: #f15543;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    ul {
+        li {
+            list-style: none;
+
+        }
+    }
+
+    p {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    button {
+        width: 160px;
+        height: 45px;
+        font-size: 11px;
+
+        &:hover {
+            background-color: #4B4B4B;
+            color: white !important;
+        }
+    }
+
+    #kart1 {
+        background-color: #efefef;
+    }
+}
+
+#section3 {
+    span {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+
+#section4 {
+
+    h6 {
+        font-size: 11px;
+        color: #f15543;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    button {
+        width: 137px;
+        height: 50px;
+        font-size: 11px;
+
+        &:hover {
+            background-color: #4B4B4B;
+            color: white !important;
+        }
+    }
+}
+
+
+#kartlar {
+    transform: translate(40px, -60px);
+
+    #kartBody {
+        background-image: url("../img/2607293_4981.jpg");
+
+        a {
+            font-size: 11px;
+
+            &:hover {
+                border-bottom: 1px solid #fdc411 !important;
+            }
+        }
+    }
+}
+
+
+#section5 {
+    height: 90vh;
+    background-image: url("../img/lamborghini.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #info {
+        height: 90vh;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        padding-top: 100px;
+        padding-left: 100px;
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            width: 160px;
+            height: 45px;
+            font-size: 11px;
+            letter-spacing: 3px;
+
+            &:hover {
+                background-color: #4B4B4B;
+                color: white !important;
+            }
+        }
+    }
+}
+
+
+#infoTwo {
+    li {
+        i {
+            font-size: 14px;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+}
+
+#social {
+
+    li {
+        a {
+            text-decoration: none;
+            color: white;
+
+            i {
+                background-color: #4b4b4b;
+
+                &:hover {
+                    padding: 10px !important;
+                    color: #fdc411;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+#footerTop {
+    height: 95px;
+    width: 100%;
+    transform: translateY(30px);
+    clip-path: polygon(0 0, 80% 0, 75% 100%, 0% 100%);
+
+    h1 {
+        margin-left: 120px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    button {
+        margin-left: 200px;
+        height: 47px;
+        width: 200px;
+        font-size: 11px;
+        letter-spacing: 3px;
+
+        &:hover {
+            background-color: #4B4B4B;
+            color: white !important;
+        }
+    }
+}
+
+#foot {
+    background-color: #20201f;
+
+    #Myinput {
+        button {
+
+            height: 45px;
+            font-size: 11px;
+            letter-spacing: 3px;
+
+            &:hover {
+                background-color: #4B4B4B;
+                color: white !important;
+            }
+        }
+    }
+}
+
+
+
+#section6{
+    height:95vh;
+    background-image: url("../img/ysjss78rw10.jpg");
+    h1{
+        font-size: 70px;
+        font-weight: 900;
+    }
+    p{
+        font-size: 18px;
+    }
+    button {
+        width: 200px;
+
+        height: 47px;
+        font-size: 11px;
+        letter-spacing: 3px;
+
+        &:hover {
+            background-color: #4B4B4B;
+            color: white !important;
+        }
+    }
+}
+
+
+#section7{
+    h6{
+        font-size: 11px;
+        color: #f15543;
+        font-weight: bold;
+        letter-spacing:3px;
+    }
+    h1{
+        font-size: 48px;
+        font-weight: 900;
+    }
+}
+
+#section8{
+    h6{
+        font-size: 11px;
+        color: #f15543;
+    }
+    h1{
+        font-size: 48px;
+        font-weight: 900;
+    }
+
+    
+#articleCard{
+    position: relative;
+    #top{
+        width:135px;
+        height: 30px;
+        z-index: 6;
+        position: absolute;
+        top: 0px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    h4{
+        cursor: pointer;
+        &:hover{
+            color: #f15543 !important;
+        }
+    }
+}
+}
+
+
+////////About///////////
+
+#about{
+    height: 506px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/ng3xrviprhk.jpg");
+   transform: translateY(-135px);
+   #aboutHero{
+    width: 100%;
+    height: 506px;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    h1{
+        font-size: 70px;
+        font-weight: 900;
+    }
+    a{
+        font-size: 11px;
+    }
+   }
+}

@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Jost&family=Kaushan+Script&family=Lato&family=Montserrat:wght@400;700&family=Poppins&family=Roboto&family=Roboto+Slab:wght@100;300;400;700&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+///////////**Home**///////////
+
+#text {
+    transform: translate(-50px, -250px);
+}
+
+#infoBtn {
+    &:hover {
+        background-color: black;
+        color: white !important;
+    }
+}
+
+
+
+
+.kart {
+    cursor: pointer;
+
+    span {
+        font-size: 50px;
+        color: #d6d6d6;
+    }
+
+    &:hover {
+        span {
+            color: #ffc107;
+        }
+    }
+}
+
+///////////**Footer**///////////
+#social {
+    li {
+        a {
+            i {
+                &:hover {
+                    color: #ffc107 !important;
+                }
+            }
+        }
+    }
+}
+
+
+////////////**About**//////////
+
+
+#kolge {
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/pagetitlebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        letter-spacing: 10px;
+    }
+
+    #about {
+        width: 100%;
+        height: 300px;
+        background-color: rgba($color: #000, $alpha: .5);
+
+
+
+    }
+}
+
+
+
+#subscribe {
+    width: 100%;
+    height: 455px;
+
+
+    background-image: url("../img/subscribebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #metn {
+        width: 100%;
+        height: 455px;
+        background: rgba($color: #000000, $alpha: 1.0);
+        opacity: .6;
+    }
+
+}
+
+
+#myinput {
+    width: 540px;
+    height: 50px;
+    border: 1px solid #fff;
+
+    #mybtn {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #myinput {
+        width: 275px;
+        height: 50px;
+        border: 1px solid #fff;
+
+        #mybtn {
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    #myinput {
+        width: 275px;
+        height: 50px;
+        border: 1px solid #fff;
+
+        #mybtn {
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
+
+
+
+////////////**Contact**/////////////// 
+
+
+.contact_info {
+    width: 255px;
+    height: 150px;
+    margin: 20px;
+
+    a {
+        i {
+            color: #d6d6d6;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    &:hover {
+        border: 1px solid #ffc107 !important;
+
+        a {
+            i {
+                color: #ffc107;
+            }
+        }
+    }
+}
+
+/////////**Header**///////////////
+
+#sol {
+    height: 45px;
+    clip-path: polygon(0 0, 94% 0, 100% 100%, 0 100%);
+
+    ul {
+        li {
+            a {
+                font-size: 18px;
+
+                i {
+                    transition: .5s;
+
+                    &:hover {
+                        color: #ffc107 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sag {
+    height: 45px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 6% 100%);
+
+    ul {
+        li {
+            font-size: 18px;
+        }
+    }
+}
